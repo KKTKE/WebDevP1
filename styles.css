@@ -1,0 +1,59 @@
+.feature-icon {
+    font-size: 3rem;
+    color: var(--primary-red);
+    margin-bottom: 15px;
+}
+
+
+.testimonial-card {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    margin: 20px 0;
+}
+
+.testimonial-card .stars {
+    color: #f1c40f;
+    font-size: 1.2rem;
+}
+
+
+.stats-section {
+    background: linear-gradient(135deg, #1a1a2e, #16213e);
+    padding: 60px 0;
+    color: white;
+}
+
+.stats-section .stat-number {
+    font-size: 3rem;
+    font-weight: 800;
+    color: var(--primary-red);
+}
+
+
+.newsletter-section {
+    background: #f0f0f0;
+    padding: 60px 0;
+}
+
+.newsletter-section .form-control {
+    border-radius: 50px;
+    padding: 12px 25px;
+}
+
+.newsletter-section .btn {
+    border-radius: 50px;
+    padding: 12px 35px;
+}
+
+
+@media (max-width: 576px) {
+    .stats-section .stat-number {
+        font-size: 2rem;
+    }
+    
+    .testimonial-card {
+        padding: 20px;
+    }
+}
