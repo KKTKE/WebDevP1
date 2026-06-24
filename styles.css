@@ -1,12 +1,11 @@
 body {
     font-family: 'Times New Roman', Times, serif, sans-serif;
     background: #1d1c1b;
-    color: #ff7300;
+    color: #ffaa00ce;
 }
 
-
 .navbar-brand {
-    color: #ff7300;
+    color: #ffaa00ce;
     font-weight: bold;
     font-size: 1.5rem;
 }
@@ -14,25 +13,30 @@ body {
 
 .card {
     background: #000000c5;
+    color: #ffaa00ce;
     margin-bottom: 20px;
     border-radius: 8px;
     
+}
+h5{
+    color: #ffaa00;
 }
 
 
 
 footer {
     margin-top: 40px;
-    padding: 20px 0;
-    background: #000000;
-    color: rgb(255, 0, 0);
+    padding: 20px ;
+    background: #1d1c1b;
+    color: #ffaa00ce;
     text-align: center;
+    
 }
 
 
 .hero {
-    background: #2e1a1a;
-    color: #ff7300;
+    background: #1d1c1b;
+    color: #ffaa00ce;
     padding: 60px 0;
     text-align: center;
 }
@@ -43,10 +47,13 @@ footer {
 
 
 .btn-primary {
-    background: #e74c3c;
+    background: #ffaa00ce;
     border: none;
 }
 
 .btn-primary:hover {
-    background: #c0392b;
+    background: #ffaa00;
+}
+input{
+    background: #ff8205;
 }
