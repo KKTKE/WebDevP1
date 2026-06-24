@@ -1,38 +1,38 @@
 body {
-    font-family: Arial, sans-serif;
-    background: #f4f4f4;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    background: #1d1c1b;
+    color: #ff7300;
 }
 
 
 .navbar-brand {
+    color: #ff7300;
     font-weight: bold;
     font-size: 1.5rem;
 }
 
 
 .card {
+    background: #000000c5;
     margin-bottom: 20px;
     border-radius: 8px;
+    
 }
 
-.card img {
-    height: 200px;
-    object-fit: cover;
-}
 
 
 footer {
     margin-top: 40px;
     padding: 20px 0;
-    background: #222;
-    color: white;
+    background: #000000;
+    color: rgb(255, 0, 0);
     text-align: center;
 }
 
 
 .hero {
-    background: #1a1a2e;
-    color: white;
+    background: #2e1a1a;
+    color: #ff7300;
     padding: 60px 0;
     text-align: center;
 }
