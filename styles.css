@@ -57,3 +57,93 @@ footer {
 input{
     background: #ff8205;
 }
+
+.compare-table-wrapper {
+    background: #000000c5;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #ffaa00ce;
+    margin-top: 20px;
+}
+
+/* The actual table */
+.compare-table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #ffaa00ce;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+/* Table header */
+.compare-table thead tr {
+    background: #1d1c1b;
+    border-bottom: 3px solid #ffaa00ce;
+}
+
+.compare-table th {
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffaa00;
+    text-align: left;
+}
+
+/* Center align the car name headers */
+.compare-table th:not(:first-child) {
+    text-align: center;
+}
+
+/* Table body rows */
+.compare-table tbody tr {
+    border-bottom: 1px solid #ffaa0044;
+}
+
+/* Last row shouldn't have a bottom border */
+
+
+/* Feature label column */
+.compare-table .feature-label {
+    padding: 12px 15px;
+    font-weight: bold;
+    color: #ffaa00;
+    text-align: left;
+}
+
+/* Value columns (car data) */
+.compare-table .value-cell {
+    padding: 12px 15px;
+    text-align: center;
+    color: #ffaa00ce;
+}
+
+
+
+/* Small text at bottom of comparison */
+.compare-footer {
+    margin-top: 8px;
+    text-align: right;
+    color: #ffaa0088;
+    font-size: 12px;
+}
+
+/* Alert styles for dark theme */
+.alert-warning-custom {
+    background: #332211;
+    color: #ffaa00;
+    border: 1px solid #ffaa00;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.alert-info-custom {
+    background: #112233;
+    color: #ffaa00;
+    border: 1px solid #ffaa00;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 20px;
+}
