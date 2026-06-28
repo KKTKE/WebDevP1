@@ -43,14 +43,14 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 const cars = [
-   
     { 
         id: 'n1', 
         name: 'Lamborghini Revuelto "25', 
         price: 'KSH 104,000,000', 
         hp: '1,001 hp', 
         fuel: 'Hybrid', 
-        range: '0 km', 
+        range: '450 km', 
+        topSpeed: '350 km/h',
         type: 'New'
     },
     { 
@@ -59,7 +59,8 @@ const cars = [
         price: 'KSH 7,350,000', 
         hp: '382 hp', 
         fuel: 'Petrol', 
-        range: '300 km', 
+        range: '600 km', 
+        topSpeed: '250 km/h',
         type: 'New'
     },
     { 
@@ -68,7 +69,8 @@ const cars = [
         price: 'KSH 10,700,000', 
         hp: '495 hp', 
         fuel: 'Petrol', 
-        range: '34 km', 
+        range: '500 km', 
+        topSpeed: '296 km/h',
         type: 'New'
     },
     { 
@@ -77,7 +79,8 @@ const cars = [
         price: 'KSH 325,000,000', 
         hp: '2,011 hp', 
         fuel: 'Electric', 
-        range: '0 km', 
+        range: '400 km', 
+        topSpeed: '350 km/h',
         type: 'New'
     },
     { 
@@ -86,7 +89,8 @@ const cars = [
         price: 'KSH 70,000,000', 
         hp: '585 hp', 
         fuel: 'Electric', 
-        range: '0 km', 
+        range: '450 km', 
+        topSpeed: '250 km/h',
         type: 'New'
     },
     { 
@@ -95,18 +99,20 @@ const cars = [
         price: 'KSH 55,000,000', 
         hp: '835 hp', 
         fuel: 'Petrol', 
-        range: '0 km', 
+        range: '550 km', 
+        topSpeed: '344 km/h',
         type: 'New'
     },
 
-    
+   
     { 
         id: 'u1', 
         name: 'Mercedes-Benz S65 AMG "16', 
         price: 'KSH 13,000,000', 
         hp: '620 hp', 
         fuel: 'Petrol', 
-        range: '70,000 km', 
+        range: '400 km', 
+        topSpeed: '250 km/h',
         type: 'Used'
     },
     { 
@@ -115,16 +121,18 @@ const cars = [
         price: 'KSH 45,000,000', 
         hp: '610 hp', 
         fuel: 'Petrol', 
-        range: '40,000 km', 
+        range: '450 km', 
+        topSpeed: '325 km/h',
         type: 'Used'
     },
     { 
         id: 'u3', 
         name: 'Nissan Skyline GT-R R34 "99', 
         price: 'KSH 21,700,000', 
-        hp: '700+ hp', 
+        hp: '700 hp', 
         fuel: 'Petrol', 
-        range: '90,000 km', 
+        range: '400 km', 
+        topSpeed: '300 km/h',
         type: 'Used'
     },
     { 
@@ -133,16 +141,18 @@ const cars = [
         price: 'KSH 78,000,000', 
         hp: '553 hp', 
         fuel: 'Petrol', 
-        range: '13,300 km', 
+        range: '450 km', 
+        topSpeed: '325 km/h',
         type: 'Used'
     },
     { 
         id: 'u5', 
         name: 'Mercedes-Benz 300SL "55', 
         price: 'KSH 226,050,000', 
-        hp: '215-240 hp', 
+        hp: '240 hp', 
         fuel: 'Petrol', 
-        range: '134,300 km', 
+        range: '450 km', 
+        topSpeed: '260 km/h',
         type: 'Used'
     },
     { 
@@ -151,7 +161,8 @@ const cars = [
         price: 'KSH 26,000,000', 
         hp: '425 hp', 
         fuel: 'Petrol', 
-        range: '21,840 km', 
+        range: '400 km', 
+        topSpeed: '230 km/h',
         type: 'Used'
     }
 ];
@@ -239,10 +250,11 @@ btn.onclick = function() {
                         <td class="value-cell">${car2.range}</td>
                     </tr>
                     <tr>
-                        <td class="feature-label">DT</td>
-                        <td class="value-cell">${car1.range}</td>
-                        <td class="value-cell">${car2.range}</td>
+                        <td class="feature-label">Top speed</td>
+                        <td class="value-cell">${car1.topSpeed}</td>
+                        <td class="value-cell">${car2.topSpeed}</td>
                     </tr>
+                    
                 </tbody>
             </table>
         </div>
